@@ -14,7 +14,7 @@ console.log('Test - should say "Hello World!"', hello());
 
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
-function helloName (name = 'stranger') {
+function helloName (name) {
   console.log(`Hello, ${name}!`);
 }
 helloName('Adam');
@@ -43,17 +43,17 @@ function isPositive( number ) {
 }
 // Call the function to test each outcome (true & false)
 // Write a separate console.log statement for each outcome
-console.log( 'isPositive - should say true', isPositive(3) );
-console.log( 'isPositive - should say false', isPositive(0) );
-console.log( 'isPositive - should say false', isPositive(-3) );
+
 
 
 // 6. Function to return the _last_ item in an array. If the
 //    array is empty, return `undefined`.
-let dogs = ['teddy', 'milly', 'max', 'penny' ]
-function getLast( array ) {
-
+let dogs = ['teddy', 'milly', 'tater', 'penny' ]
+function getLast( lastItem ) {
+  lastItem = [dogs.length - 1];
+  return lastItem;
 }
+console.log(getLast);
 
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
