@@ -48,19 +48,22 @@ function isPositive( number ) {
 
 // 6. Function to return the _last_ item in an array. If the
 //    array is empty, return `undefined`.
-let dogs = ['teddy', 'milly', 'tater', 'penny' ]
-function getLast( lastItem ) {
-  lastItem = [dogs.length - 1];
+let dogs = ['teddy', 'milly', 'tater', 'penny'];
+function getLast() {
+  let lastItem = dogs[dogs.length - 1];
   return lastItem;
 }
-console.log(getLast);
+console.log( getLast() );
 
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
-function find( value, array ){
-
-}
+// const array = ['1', '2', '3', '4', '5', '6'];
+// function find( value, array ){
+//   for (const i in array) {
+//     if i =
+//   }
+// }
 
 // ----------------------
 // Stretch Goals
