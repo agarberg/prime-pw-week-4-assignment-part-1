@@ -58,12 +58,15 @@ console.log( getLast() );
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
-// const array = ['1', '2', '3', '4', '5', '6'];
-// function find( value, array ){
-//   for (const i in array) {
-//     if i =
-//   }
-// }
+const array = ['1', '2', '3', '4', '5', '6'];
+let value = '3';
+function find( value, array ){
+  for (const i of numbers) {
+    if (i === value)
+      return true
+      else return false
+    }
+    console.log(find( 3, array ))
 
 // ----------------------
 // Stretch Goals
