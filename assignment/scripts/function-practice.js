@@ -59,14 +59,16 @@ console.log( getLast() );
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
 const array = ['1', '2', '3', '4', '5', '6'];
-let value = '3';
 function find( value, array ){
-  for (const i of numbers) {
-    if (i === value)
-      return true
-      else return false
+  for (let i =0; i<array.length; i++) {
+    if (array [i] === value){
+      return true;
     }
-    console.log(find( 3, array ))
+  }
+    return false
+    }
+  console.log(find( '4', array ))
+
 
 // ----------------------
 // Stretch Goals
