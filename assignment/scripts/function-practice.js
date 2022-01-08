@@ -65,10 +65,9 @@ function find( value, array ){
       return true;
     }
   }
-    return false
+    return false;
     }
   console.log(find( '4', array ))
-
 
 // ----------------------
 // Stretch Goals
