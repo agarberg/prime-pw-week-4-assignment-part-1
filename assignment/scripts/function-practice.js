@@ -65,7 +65,7 @@ function find( value, array ){
       return true;
     }
   }
-    return false;
+      return false;
     }
   console.log(find('4', array))
 
@@ -81,10 +81,14 @@ console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
 console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
 
 // 9. Function to return the sum of all numbers in an array
-function sumAll( ) {
-  let sum = 0
-  // TODO: loop to add items
-  return sum;
+let numbers = [2, 4, 7, 3, 6];
+function sumAll(){
+  let sum = 0;
+  for(i=0; i<numbers.length; i++){
+    sum += numbers[i];
+    return sum;
+}
+console.log(sumAll());
 }
 
 // 10. Function to return a new array of all positive (greater than zero)
